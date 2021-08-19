@@ -87,3 +87,51 @@ Floyd 알고리즘을 사용하여 모든 쌍의 최단 경로를 구했다.
 그래프에서 v1,v2...v7을 a7 ,a6...a1로 바꾸어서 모든 쌍의 최단 경로를 다시 해결 한 후 a5에서 a2로 가는 최단거리 경로를 구했다.
 
 <img width="264" alt="20201031_141707_6" src="https://user-images.githubusercontent.com/20348923/129749920-4bde9a3d-522b-401d-9d82-d46233964d1a.png">
+
+## 과제 9
+
+![image](https://user-images.githubusercontent.com/20348923/130087251-d228b561-2ff0-442f-b17c-8c659df9afdd.png)
+
+위의 그래프를 이용해 최소 신장 트리를 구한다. 프림 알고리즘과 크루스칼 알고리즘으로 구현했다.
+
+Prim's algorithm
+
+<img width="374" alt="20201106_155338_2" src="https://user-images.githubusercontent.com/20348923/130086864-b67b3ce4-980e-4556-976a-fac1e5771228.png">
+
+Kruskal's algorithm
+
+<img width="306" alt="20201106_155338_1" src="https://user-images.githubusercontent.com/20348923/130086869-2b5ef8c8-4892-4789-b3c8-e3647d1c11f7.png">
+
+## 과제 10
+
+Backtracking 알고리즘을 사용하여 아래의 Sum-of-Subset 문제를 해결한다. W=52의 합을 구하는 모든 숫자의 조합을 구한다.
+
+![image](https://user-images.githubusercontent.com/20348923/130088176-8e1b0a62-cd1c-442e-832c-958d5e948a36.png)
+
+구하는 과정을 스텝별로 나타냈다.
+
+<img width="394" alt="20201114_213755_1" src="https://user-images.githubusercontent.com/20348923/130088030-52559489-7317-40c0-9ef2-0c4f50f25e6e.png">
+
+Monte Carlo 알고리즘을 사용하여 위의 Backtracking 알고리즘의 효율성을 추정해보았다. 하지만 아직 완벽히 Monte Carlo 알고리즘을 구현하지는 못했다.
+
+<img width="444" alt="20201114_214020_1" src="https://user-images.githubusercontent.com/20348923/130088041-0ad2efd6-63a6-4e4e-873d-5c91a75a5c7b.png">
+
+<img width="400" alt="20201114_214020_2" src="https://user-images.githubusercontent.com/20348923/130088043-d781e6b7-7f05-4456-a43b-81ef5ceb2213.png">
+
+## 과제 11
+
+아래의 Knapsack problem를 해결한다.
+
+![image](https://user-images.githubusercontent.com/20348923/130089058-de5abf91-dc0f-40d5-9620-8e98b0dcaebc.png)
+
+1. Depth-First 알고리즘으로 구현
+
+<img width="348" alt="20201123_204116_1" src="https://user-images.githubusercontent.com/20348923/130088955-6dbdcbfa-6574-414b-8901-924349bf8beb.png">
+
+2. Breadth-First 알고리즘으로 구현
+
+<img width="406" alt="20201123_204116_2" src="https://user-images.githubusercontent.com/20348923/130088958-0190fdae-04a3-46ab-b464-c3cfcc668d3f.png">
+
+3. Best-First 알고리즘으로 구현
+
+<img width="454" alt="20201123_204116_3" src="https://user-images.githubusercontent.com/20348923/130088960-f509c916-ce17-4a77-be1a-b893f64b9b4a.png">
